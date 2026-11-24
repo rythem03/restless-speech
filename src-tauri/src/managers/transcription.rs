@@ -1720,6 +1720,14 @@ fn post_process_transcription_text(
             None => raw,
         };
 
+        // Hinglish: Hindi comes out in Roman letters, before custom words so
+        // they can match the way the user types.
+        let raw = if settings.hinglish_enabled {
+            crate::hinglish::to_hinglish(&raw)
+        } else {
+            raw
+        };
+
         let corrected = if !settings.custom_words.is_empty() && !custom_words_already_prompted {
             apply_custom_words(
                 &raw,

@@ -533,6 +533,9 @@ pub struct AppSettings {
     pub external_script_path: Option<String>,
     #[serde(default = "default_filler_word_removal_enabled")]
     pub filler_word_removal_enabled: bool,
+    /// Write Hindi (Devanagari) output in Roman letters ("Hinglish").
+    #[serde(default)]
+    pub hinglish_enabled: bool,
     #[serde(default)]
     pub custom_filler_words: Option<Vec<String>>,
     /// Fresh installs default from the OS locale; existing stores are migrated
@@ -1065,6 +1068,7 @@ pub fn get_default_settings() -> AppSettings {
         typing_tool: default_typing_tool(),
         external_script_path: None,
         filler_word_removal_enabled: default_filler_word_removal_enabled(),
+        hinglish_enabled: false,
         custom_filler_words: None,
         chinese_script: default_chinese_script(),
         transcribe_accelerator: TranscribeAcceleratorSetting::default(),

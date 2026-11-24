@@ -1571,3 +1571,12 @@ mod tests {
         }
     }
 }
+
+#[tauri::command]
+#[specta::specta]
+pub fn change_hinglish_enabled_setting(app: AppHandle, enabled: bool) -> Result<(), String> {
+    let mut settings = settings::get_settings(&app);
+    settings.hinglish_enabled = enabled;
+    settings::write_settings(&app, settings);
+    Ok(())
+}

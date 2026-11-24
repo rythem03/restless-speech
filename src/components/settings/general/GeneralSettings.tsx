@@ -14,6 +14,7 @@ import { MuteWhileRecording } from "../MuteWhileRecording";
 import { ModelSettingsCard } from "./ModelSettingsCard";
 import { PreferredLanguages } from "../PreferredLanguages";
 import { ChineseScriptSetting } from "../ChineseScript";
+import { HinglishSetting } from "../Hinglish";
 import { isChinese } from "@/lib/utils/languageSuggestions";
 
 export const GeneralSettings: React.FC = () => {
@@ -34,6 +35,7 @@ export const GeneralSettings: React.FC = () => {
       </SettingsGroup>
       <SettingsGroup title={t("settings.languages.title")}>
         <PreferredLanguages descriptionMode="tooltip" grouped={true} />
+        <HinglishSetting descriptionMode="tooltip" grouped={true} />
         {speaksChinese && (
           <ChineseScriptSetting descriptionMode="tooltip" grouped={true} />
         )}

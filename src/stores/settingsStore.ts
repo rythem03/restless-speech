@@ -199,6 +199,8 @@ const settingUpdaters: {
       throw new Error(result.error);
     }
   },
+  hinglish_enabled: (value) =>
+    commands.changeHinglishEnabledSetting(value as boolean),
   filler_word_removal_enabled: (value) =>
     commands.changeFillerWordRemovalEnabledSetting(value as boolean),
   chinese_script: (value) =>

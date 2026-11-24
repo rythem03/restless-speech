@@ -434,7 +434,11 @@
       }
     },
     "languages": {
-      "title": "Languages"
+      "title": "Languages",
+      "hinglish": {
+        "title": "Hinglish",
+        "description": "Write Hindi in English letters, the way you type in chats (\"main ghar ja raha hoon\"). Turning this on adds Hindi to your languages and sets the speech language to Hindi. Use a Whisper model."
+      }
     },
     "sound": {
       "title": "Sound",
