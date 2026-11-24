@@ -1,0 +1,78 @@
+name: "RESTLESS SPEECH - installers"
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - platform: "windows-latest"
+            target: "x86_64-pc-windows-msvc"
+            args: ""
+          - platform: "macos-26" # Apple Silicon (M1 and newer)
+            target: "aarch64-apple-darwin"
+            args: "--target aarch64-apple-darwin"
+          - platform: "macos-latest" # Intel Macs
+            target: "x86_64-apple-darwin"
+            args: "--target x86_64-apple-darwin"
+    uses: ./.github/workflows/build.yml
+    with:
+      platform: ${{ matrix.platform }}
+      target: ${{ matrix.target }}
+      build-args: ${{ matrix.args }}
+      sign-binaries: false
+      asset-prefix: "restless-speech"
+      upload-artifacts: true
+    secrets: inherit
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: restless-speech-*
+          path: dist
+      - name: Keep only installers, with dashes instead of spaces
+        run: |
+          mkdir -p out
+          find dist -type f \( -name '*.exe' -o -name '*.msi' -o -name '*.dmg' \) -print0 |
+            while IFS= read -r -d '' f; do
+              name="$(basename "$f")"
+              cp "$f" "out/${name// /-}"
+            done
+          ls -la out
+      - name: Remove previous downloads from the release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for id in $(gh api repos/${{ github.repository }}/releases/tags/latest --jq '.assets[].id' 2>/dev/null); do
+            gh api -X DELETE repos/${{ github.repository }}/releases/assets/$id
+          done
+      - name: Publish installers as the "latest" release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: RESTLESS SPEECH (latest build)
+          body: |
+            Free, open-source, offline dictation. Based on Handy by CJ Pais (MIT License).
+
+            **Windows:** download `RESTLESS-SPEECH_..._x64-setup.exe` and run it.
+            If Windows shows "Windows protected your PC", click More info → Run anyway.
+
+            **Mac with Apple Silicon (M1, M2, M3, M4…):** download the file ending in `_aarch64.dmg`.
+            **Mac with Intel chip:** download the file ending in `_x64.dmg`.
+            Open the DMG and drag RESTLESS SPEECH into Applications.
+            The Mac app isn't notarized by Apple, so the first time: open Terminal and run
+            `xattr -dr com.apple.quarantine "/Applications/RESTLESS SPEECH.app"`,
+            then open the app normally. Grant Microphone and Accessibility permission when asked.
+          files: out/*
+          make_latest: true

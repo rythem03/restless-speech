@@ -4,7 +4,10 @@
 
 Free, open-source dictation app. Press a shortcut, talk, and your words get typed into whatever app you're using. Everything runs on your own computer: no account, no subscription, no audio uploaded.
 
-**Download (Windows):** go to the [Releases](../../releases/latest) page and run the `-setup.exe` file.
+**Download:** go to the [Releases](../../releases/latest) page.
+
+- **Windows:** run the `-setup.exe` file.
+- **Mac (Apple Silicon M1/M2/M3/M4):** the `_aarch64.dmg` file. **Mac (Intel):** the `_x64.dmg` file. Open it and drag RESTLESS SPEECH into Applications. The Mac app is not notarized by Apple, so before the first launch run this in Terminal: `xattr -dr com.apple.quarantine "/Applications/RESTLESS SPEECH.app"`
 
 ## How to use
 
