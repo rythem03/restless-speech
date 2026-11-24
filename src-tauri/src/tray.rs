@@ -616,9 +616,9 @@ pub fn tray_tooltip() -> String {
 
 fn version_label() -> String {
     if cfg!(debug_assertions) {
-        format!("Restless Speech v{} (Dev)", env!("CARGO_PKG_VERSION"))
+        format!("RESTLESS SPEECH v{} (Dev)", env!("CARGO_PKG_VERSION"))
     } else {
-        format!("Restless Speech v{}", env!("CARGO_PKG_VERSION"))
+        format!("RESTLESS SPEECH v{}", env!("CARGO_PKG_VERSION"))
     }
 }
 

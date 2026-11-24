@@ -25,7 +25,7 @@
     "customModelDescription": "Hivatalosan nem támogatott",
     "migration": {
       "title": "A modelljeidet frissíteni kell",
-      "description": "A Restless Speech mostantól újabb típusú modellt használ. Töltsd le az új verziót, hogy továbbra is működjön az átírás. A régi verziók törlődnek.",
+      "description": "A RESTLESS SPEECH mostantól újabb típusú modellt használ. Töltsd le az új verziót, hogy továbbra is működjön az átírás. A régi verziók törlődnek.",
       "replaces": "Ezt váltja fel: {{name}}",
       "oldFormat": "Régi formátum",
       "failed": "A letöltés sikertelen",
@@ -62,11 +62,11 @@
     "permissions": {
       "microphone": {
         "name": "Mikrofon",
-        "why": "Hogy a Restless Speech hallja a hangodat. A hang ezen a számítógépen alakul szöveggé, és soha nem töltődik fel."
+        "why": "Hogy a RESTLESS SPEECH hallja a hangodat. A hang ezen a számítógépen alakul szöveggé, és soha nem töltődik fel."
       },
       "accessibility": {
         "name": "Kisegítő lehetőségek",
-        "why": "Hogy a billentyűparancs minden alkalmazásban működjön, és a Restless Speech oda írhassa a szöveget, ahol a kurzor van."
+        "why": "Hogy a billentyűparancs minden alkalmazásban működjön, és a RESTLESS SPEECH oda írhassa a szöveget, ahol a kurzor van."
       },
       "errors": {
         "checkFailed": "Az engedélyek ellenőrzése sikertelen. Próbáld újra.",
@@ -96,11 +96,11 @@
       "title": "Beszélj gépelés helyett, bármelyik alkalmazásban",
       "subtitle": "Válaszd ki a nyelveket, amelyeken diktálni fogsz",
       "languagesLabel": "Nyelvek",
-      "noMatch": "Nincs találat erre: „{{query}}”. A Restless Speech modelljei körülbelül 100 nyelvet ismernek; a többit a beállításokban találod.",
+      "noMatch": "Nincs találat erre: „{{query}}”. A RESTLESS SPEECH modelljei körülbelül 100 nyelvet ismernek; a többit a beállításokban találod.",
       "appLanguage": "Az alkalmazás nyelve",
       "menusIn": "Menük nyelve: <b>{{language}}</b>",
       "chinese": {
-        "question": "Beszélt nyelveid: {{languages}}. Milyen írásjegyekkel írjon a Restless Speech?",
+        "question": "Beszélt nyelveid: {{languages}}. Milyen írásjegyekkel írjon a RESTLESS SPEECH?",
         "label": "Kínai írásjegyek",
         "zh-Hans": "Egyszerűsített",
         "zh-Hant": "Tajvani",
@@ -170,7 +170,7 @@
     },
     "try": {
       "title": "Próbáld ki!",
-      "subtitle": "A Restless Speech ott van a sarokban, és végigvezet rajta",
+      "subtitle": "A RESTLESS SPEECH ott van a sarokban, és végigvezet rajta",
       "noteLabel": "Jegyzet",
       "placeholder": "Új jegyzet",
       "hold": "Tartsd lenyomva: <keys/>, és beszélj.",
@@ -198,14 +198,14 @@
     },
     "done": {
       "title": "Minden kész",
-      "subMac": "A Restless Speech mostantól a menüsorban van. Bármelyik alkalmazásban tartsd lenyomva vagy koppints: <keys/>, és beszélj.",
-      "subTray": "A Restless Speech mostantól a tálcán van. Bármelyik alkalmazásban tartsd lenyomva vagy koppints: <keys/>, és beszélj.",
+      "subMac": "A RESTLESS SPEECH mostantól a menüsorban van. Bármelyik alkalmazásban tartsd lenyomva vagy koppints: <keys/>, és beszélj.",
+      "subTray": "A RESTLESS SPEECH mostantól a tálcán van. Bármelyik alkalmazásban tartsd lenyomva vagy koppints: <keys/>, és beszélj.",
       "hint": "Ezeket később módosíthatod a Beállításokban",
       "highFiveLabel": "Pacsi",
-      "atLogin": "A Restless Speech indítása bejelentkezéskor",
+      "atLogin": "A RESTLESS SPEECH indítása bejelentkezéskor",
       "finish": "Kész",
       "panel": {
-        "name": "Restless Speech",
+        "name": "RESTLESS SPEECH",
         "ready": "Kész",
         "languages": "Nyelvek",
         "model": "Beszédmodell",
@@ -330,7 +330,7 @@
     "general": {
       "title": "Általános",
       "shortcut": {
-        "title": "Restless Speech billentyűparancsok",
+        "title": "RESTLESS SPEECH billentyűparancsok",
         "description": "Állítsd be a billentyűparancsokat, amelyek elindítják a beszédfelvételt és az átírást",
         "loading": "Billentyűparancsok betöltése...",
         "none": "Nincs beállított billentyűparancs",
@@ -372,7 +372,7 @@
       },
       "preferredLanguages": {
         "title": "Előnyben részesített nyelvek",
-        "description": "A nyelvek, amelyeken beszélsz. A Restless Speech ezek alapján ajánl modelleket.",
+        "description": "A nyelvek, amelyeken beszélsz. A RESTLESS SPEECH ezek alapján ajánl modelleket.",
         "noMatch": "Nincs találat erre: „{{query}}”",
         "weak": "Ezt egyik modell sem ismeri fel még jól: {{languages}}."
       },
@@ -402,14 +402,14 @@
       "untestedNote": "Nem teszteltük őket a Handyvel. Lassabbak lehetnek, vagy több hibát véthetnek.",
       "untestedHidden_one": "Még {{count}} modell nincs diktálásra hangolva. Kereséssel megtalálod.",
       "untestedHidden_other": "Még {{count}} modell nincs diktálásra hangolva. Kereséssel megtalálod őket.",
-      "emptyYours": "Még nincs modell. Válassz egyet lent: letöltődik, majd a Restless Speech használja.",
+      "emptyYours": "Még nincs modell. Válassz egyet lent: letöltődik, majd a RESTLESS SPEECH használja.",
       "showMore": "Még {{count}} megjelenítése",
       "showFewer": "Kevesebb megjelenítése",
       "download": "Letöltés és használat",
       "downloadingThenUse": "{{percent}}% letöltve ({{total}}), utána átvált",
       "loading": "Betöltés…",
       "deleteAsk": "Törlöd ezt: {{name}}? {{size}} szabadul fel.",
-      "deleteAskActive": "Törlöd ezt: {{name}}? A Restless Speech nem tud átírni, amíg másikat nem választasz.",
+      "deleteAskActive": "Törlöd ezt: {{name}}? A RESTLESS SPEECH nem tud átírni, amíg másikat nem választasz.",
       "cancel": "Mégse",
       "deleteModel": "Törlés: {{name}}",
       "cancelDownload": "Letöltés leállítása: {{name}}",
@@ -500,11 +500,11 @@
       },
       "autostart": {
         "label": "Automatikus indítás",
-        "description": "A Restless Speech automatikus indítása, amikor bejelentkezel a számítógépedre."
+        "description": "A RESTLESS SPEECH automatikus indítása, amikor bejelentkezel a számítógépedre."
       },
       "showTrayIcon": {
         "label": "Tálcaikon megjelenítése",
-        "description": "A Restless Speech ikonjának megjelenítése a tálcán."
+        "description": "A RESTLESS SPEECH ikonjának megjelenítése a tálcán."
       },
       "overlay": {
         "style": {
@@ -741,7 +741,7 @@
       },
       "updateChecks": {
         "label": "Frissítések keresése",
-        "description": "A Restless Speech új verzióinak automatikus keresése",
+        "description": "A RESTLESS SPEECH új verzióinak automatikus keresése",
         "lockedDescription": "A rendszerkonfiguráció letiltotta (HANDY_DISABLE_UPDATER)"
       },
       "whatsNewPreview": {
@@ -870,15 +870,15 @@
       "title": "Névjegy",
       "version": {
         "title": "Verzió",
-        "description": "A Restless Speech jelenlegi verziója"
+        "description": "A RESTLESS SPEECH jelenlegi verziója"
       },
       "whatsNewUpdates": {
         "label": "Újdonságok megjelenítése",
-        "description": "A kiadási jegyzetek megjelenítése a Restless Speech frissítései után"
+        "description": "A kiadási jegyzetek megjelenítése a RESTLESS SPEECH frissítései után"
       },
       "appDataDirectory": {
         "title": "Alkalmazásadatok mappája",
-        "description": "A hely, ahol a Restless Speech az adatait tárolja"
+        "description": "A hely, ahol a RESTLESS SPEECH az adatait tárolja"
       },
       "sourceCode": {
         "title": "Forráskód",
@@ -895,7 +895,7 @@
         "ggml": {
           "title": "ggml",
           "description": "Nagy teljesítményű tenzorkönyvtár gépi tanulási modellek eszközön történő futtatásához",
-          "details": "A Restless Speech helyi beszédfelismerése a transcribe.cpp-re és a ggml-re épül. Köszönet Georgi Gerganov és a közreműködők csodálatos munkájáért."
+          "details": "A RESTLESS SPEECH helyi beszédfelismerése a transcribe.cpp-re és a ggml-re épül. Köszönet Georgi Gerganov és a közreműködők csodálatos munkájáért."
         }
       }
     }
@@ -916,7 +916,7 @@
     "portableUpdateBrowseButton": "GitHub Releases megnyitása"
   },
   "whatsNew": {
-    "title": "A Restless Speech v{{version}} újdonságai"
+    "title": "A RESTLESS SPEECH v{{version}} újdonságai"
   },
   "common": {
     "playbackPosition": "Lejátszási pozíció",
@@ -943,7 +943,7 @@
     "microphoneSilentTitle": "A mikrofon néma",
     "microphoneSilent": "A mikrofonod csak csendet küldött. Ellenőrizd, hogy nincs-e némítva, vagy válassz másik mikrofont a Beállításokban.",
     "recordingFailedTitle": "A felvétel indítása sikertelen",
-    "modelLoadFailed": "A Restless Speech nem tudta betölteni ezt a modellt. Próbáld újra, vagy válassz másikat.",
+    "modelLoadFailed": "A RESTLESS SPEECH nem tudta betölteni ezt a modellt. Próbáld újra, vagy válassz másikat.",
     "modelLoadFailedTitle": "A modell betöltése sikertelen",
     "noModelSelected": "Tölts le vagy válassz modellt a Beállítások > Modellek részben.",
     "noModelSelectedTitle": "Nincs kiválasztott modell",
@@ -951,7 +951,7 @@
     "pasteFailedTitle": "A szöveg beillesztése sikertelen",
     "pasteFailed": "A szöveget nem sikerült beilleszteni az aktív alkalmazásba.",
     "pasteBlockedElevatedTitle": "Rendszergazdai alkalmazásba nem lehet beilleszteni",
-    "pasteBlockedElevated": "Az aktív alkalmazás rendszergazdaként fut, ezért a Restless Speech nem tud beilleszteni bele. Az átiratot az Előzményekből másolhatod ki.",
+    "pasteBlockedElevated": "Az aktív alkalmazás rendszergazdaként fut, ezért a RESTLESS SPEECH nem tud beilleszteni bele. Az átiratot az Előzményekből másolhatod ki.",
     "postProcessFailedTitle": "Beillesztve utófeldolgozás nélkül",
     "postProcessFailed": "Az utófeldolgozás nem fejeződött be, ezért az eredeti átirat lett beillesztve.",
     "filePostProcessFailedTitle": "Átírva utófeldolgozás nélkül",
@@ -968,11 +968,11 @@
   },
   "appLanguage": {
     "title": "Az alkalmazás nyelve",
-    "description": "A Restless Speech felületének nyelve"
+    "description": "A RESTLESS SPEECH felületének nyelve"
   },
   "theme": {
     "title": "Az alkalmazás témája",
-    "description": "Válaszd ki, hogy a Restless Speech kövesse a rendszer témáját, vagy maradjon világos vagy sötét",
+    "description": "Válaszd ki, hogy a RESTLESS SPEECH kövesse a rendszer témáját, vagy maradjon világos vagy sötét",
     "options": {
       "system": "Rendszer",
       "light": "Világos",

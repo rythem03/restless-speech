@@ -1,7 +1,8 @@
-// Restless Speech wordmark (replaces the original Handy wordmark).
+// RESTLESS SPEECH logo + wordmark (replaces the original Handy wordmark).
+import logo from "@/assets/restless-logo.png";
+
 const HandyTextLogo = ({
-  width,
-  height,
+  width = 120,
   className,
 }: {
   width?: number;
@@ -9,41 +10,41 @@ const HandyTextLogo = ({
   className?: string;
 }) => {
   return (
-    <svg
-      width={width}
-      height={height}
+    <div
       className={className}
-      viewBox="0 0 300 120"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
+      style={{
+        width,
+        display: "flex",
+        alignItems: "center",
+        gap: Math.round(width * 0.07),
+      }}
       role="img"
-      aria-label="Restless Speech"
+      aria-label="RESTLESS SPEECH"
     >
-      <text
-        x="150"
-        y="52"
-        textAnchor="middle"
-        className="logo-primary"
-        stroke="var(--color-wordmark-stroke)"
-        strokeWidth="2"
-        paintOrder="stroke"
-        style={{ font: "800 50px system-ui, 'Segoe UI', sans-serif" }}
+      <img
+        src={logo}
+        alt=""
+        draggable={false}
+        style={{
+          width: Math.round(width * 0.32),
+          height: Math.round(width * 0.32),
+          borderRadius: Math.round(width * 0.06),
+          flexShrink: 0,
+        }}
+      />
+      <span
+        style={{
+          fontWeight: 800,
+          fontSize: Math.round(width * 0.115),
+          lineHeight: 1.05,
+          letterSpacing: "0.04em",
+        }}
       >
-        Restless
-      </text>
-      <text
-        x="150"
-        y="106"
-        textAnchor="middle"
-        className="logo-primary"
-        stroke="var(--color-wordmark-stroke)"
-        strokeWidth="2"
-        paintOrder="stroke"
-        style={{ font: "800 50px system-ui, 'Segoe UI', sans-serif" }}
-      >
-        Speech
-      </text>
-    </svg>
+        RESTLESS
+        <br />
+        SPEECH
+      </span>
+    </div>
   );
 };
 

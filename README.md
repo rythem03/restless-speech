@@ -1,4 +1,6 @@
-# Restless Speech
+# RESTLESS SPEECH
+
+<img src="src/assets/restless-logo.png" width="128" alt="RESTLESS SPEECH logo">
 
 Free, open-source dictation app. Press a shortcut, talk, and your words get typed into whatever app you're using. Everything runs on your own computer: no account, no subscription, no audio uploaded.
 
@@ -6,14 +8,14 @@ Free, open-source dictation app. Press a shortcut, talk, and your words get type
 
 ## How to use
 
-1. Install and open Restless Speech.
+1. Install and open RESTLESS SPEECH.
 2. Pick the recommended speech model when asked.
 3. Choose the keyboard shortcut you want for dictation.
 4. Click into any text box, hold the shortcut and talk. Let go and your words appear.
 
 ## Credits
 
-Restless Speech is a rebranded build of [Handy](https://github.com/cjpais/handy) by CJ Pais, used under the MIT License (see `LICENSE`). All credit for the underlying app goes to the Handy project.
+RESTLESS SPEECH is a rebranded build of [Handy](https://github.com/cjpais/handy) by CJ Pais, used under the MIT License (see `LICENSE`). All credit for the underlying app goes to the Handy project.
 
 ---
 

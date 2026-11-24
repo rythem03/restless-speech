@@ -1,4 +1,4 @@
-name: "Restless Speech - Windows installer"
+﻿name: "Restless Speech - Windows installer"
 
 on:
   push:
@@ -32,7 +32,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: latest
-          name: Restless Speech (latest build)
+          name: RESTLESS SPEECH (latest build)
           body: |
             Free, open-source, offline dictation for Windows.
             Download the `-setup.exe` file below and run it.

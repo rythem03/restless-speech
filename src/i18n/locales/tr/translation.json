@@ -25,7 +25,7 @@
     "customModelDescription": "Resmi olarak desteklenmiyor",
     "migration": {
       "title": "Modellerinizin güncellenmesi gerekiyor",
-      "description": "Restless Speech artık daha yeni bir model türü kullanıyor. Transkripsiyona devam etmek için yeni sürümü indirin. Eski sürümler kaldırılacak.",
+      "description": "RESTLESS SPEECH artık daha yeni bir model türü kullanıyor. Transkripsiyona devam etmek için yeni sürümü indirin. Eski sürümler kaldırılacak.",
       "replaces": "{{name}} yerine geçer",
       "oldFormat": "Eski format",
       "failed": "İndirme başarısız oldu",
@@ -62,11 +62,11 @@
     "permissions": {
       "microphone": {
         "name": "Mikrofon",
-        "why": "Restless Speech sizi duyabilsin diye. Ses bu bilgisayarda metne dönüştürülür, hiçbir yere yüklenmez."
+        "why": "RESTLESS SPEECH sizi duyabilsin diye. Ses bu bilgisayarda metne dönüştürülür, hiçbir yere yüklenmez."
       },
       "accessibility": {
         "name": "Erişilebilirlik",
-        "why": "Kısayolunuz her uygulamada çalışsın ve Restless Speech metni imlecinizin bulunduğu yere yazabilsin diye."
+        "why": "Kısayolunuz her uygulamada çalışsın ve RESTLESS SPEECH metni imlecinizin bulunduğu yere yazabilsin diye."
       },
       "errors": {
         "checkFailed": "İzinler kontrol edilemedi. Lütfen tekrar deneyin.",
@@ -80,12 +80,12 @@
       "openSettings": "Ayarları aç",
       "allowed": "İzin verildi",
       "waiting": "Bekleniyor",
-      "turnOnMac": "Sistem Ayarları'nda Restless Speech'yi açın, sonra buraya dönün.",
+      "turnOnMac": "Sistem Ayarları'nda RESTLESS SPEECH'yi açın, sonra buraya dönün.",
       "turnOnWindows": "Windows Ayarları'nda mikrofon erişimini açın, sonra buraya dönün.",
       "hintBoth": "Devam etmek için ikisine de izin verin",
       "hintMicrophone": "Devam etmek için mikrofona izin verin",
       "welcomeBack": "Tekrar hoş geldiniz. Kaldığınız yerden devam ediyoruz.",
-      "relaunch": "Bundan sonra kısayol yanıt vermiyor mu? <relaunch>Restless Speech'yi yeniden başlatın</relaunch>, doğrudan buraya döneceksiniz."
+      "relaunch": "Bundan sonra kısayol yanıt vermiyor mu? <relaunch>RESTLESS SPEECH'yi yeniden başlatın</relaunch>, doğrudan buraya döneceksiniz."
     },
     "shell": {
       "back": "Geri",
@@ -96,11 +96,11 @@
       "title": "Yazmak yerine konuşun, her uygulamada",
       "subtitle": "Konuşacağınız dilleri seçin",
       "languagesLabel": "Diller",
-      "noMatch": "“{{query}}” ile eşleşen dil yok. Restless Speech'nin modelleri yaklaşık 100 dili kapsıyor; daha fazlası ayarlarda.",
+      "noMatch": "“{{query}}” ile eşleşen dil yok. RESTLESS SPEECH'nin modelleri yaklaşık 100 dili kapsıyor; daha fazlası ayarlarda.",
       "appLanguage": "Uygulama dili",
       "menusIn": "Menüler <b>{{language}}</b> dilinde",
       "chinese": {
-        "question": "{{languages}} konuşuyorsunuz. Restless Speech hangi karakterleri yazsın?",
+        "question": "{{languages}} konuşuyorsunuz. RESTLESS SPEECH hangi karakterleri yazsın?",
         "label": "Çince karakterler",
         "zh-Hans": "Basitleştirilmiş",
         "zh-Hant": "Tayvan",
@@ -170,7 +170,7 @@
     },
     "try": {
       "title": "Bir deneyin!",
-      "subtitle": "Restless Speech köşede, size yol göstermek için hazır",
+      "subtitle": "RESTLESS SPEECH köşede, size yol göstermek için hazır",
       "noteLabel": "Not",
       "placeholder": "Yeni not",
       "hold": "<keys/> tuşlarını basılı tutun ve konuşun.",
@@ -198,14 +198,14 @@
     },
     "done": {
       "title": "Hazırsınız",
-      "subMac": "Restless Speech artık menü çubuğunuzda. Konuşmak için herhangi bir uygulamada <keys/> tuşlarını basılı tutun veya dokunun.",
-      "subTray": "Restless Speech artık sistem tepsinizde. Konuşmak için herhangi bir uygulamada <keys/> tuşlarını basılı tutun veya dokunun.",
+      "subMac": "RESTLESS SPEECH artık menü çubuğunuzda. Konuşmak için herhangi bir uygulamada <keys/> tuşlarını basılı tutun veya dokunun.",
+      "subTray": "RESTLESS SPEECH artık sistem tepsinizde. Konuşmak için herhangi bir uygulamada <keys/> tuşlarını basılı tutun veya dokunun.",
       "hint": "Bunları daha sonra Ayarlar'dan değiştirebilirsiniz",
       "highFiveLabel": "Çak bir beşlik",
-      "atLogin": "Oturum açtığımda Restless Speech'yi başlat",
+      "atLogin": "Oturum açtığımda RESTLESS SPEECH'yi başlat",
       "finish": "Bitti",
       "panel": {
-        "name": "Restless Speech",
+        "name": "RESTLESS SPEECH",
         "ready": "Hazır",
         "languages": "Diller",
         "model": "Konuşma modeli",
@@ -330,7 +330,7 @@
     "general": {
       "title": "Genel",
       "shortcut": {
-        "title": "Restless Speech Kısayolları",
+        "title": "RESTLESS SPEECH Kısayolları",
         "description": "Sesle yazma kaydını başlatmak için klavye kısayollarını yapılandırın",
         "loading": "Kısayollar yükleniyor...",
         "none": "Kısayol yapılandırılmadı",
@@ -372,7 +372,7 @@
       },
       "preferredLanguages": {
         "title": "Tercih Edilen Diller",
-        "description": "Konuştuğunuz diller. Restless Speech bunları model önermek için kullanır.",
+        "description": "Konuştuğunuz diller. RESTLESS SPEECH bunları model önermek için kullanır.",
         "noMatch": "“{{query}}” ile eşleşen dil yok",
         "weak": "Henüz hiçbir model {{languages}} dilini iyi tanımıyor."
       },
@@ -399,17 +399,17 @@
         "fits": "Dilleriniz için",
         "untested": "Test edilmemiş"
       },
-      "untestedNote": "Restless Speech ile test edilmedi. Daha yavaş olabilir veya daha fazla hata yapabilir.",
+      "untestedNote": "RESTLESS SPEECH ile test edilmedi. Daha yavaş olabilir veya daha fazla hata yapabilir.",
       "untestedHidden_one": "{{count}} model daha yazdırma için ayarlanmamış. Bulmak için arama yapın.",
       "untestedHidden_other": "{{count}} model daha yazdırma için ayarlanmamış. Bulmak için arama yapın.",
-      "emptyYours": "Henüz model yok. Aşağıdan birini seçin: iner, sonra Restless Speech onu kullanır.",
+      "emptyYours": "Henüz model yok. Aşağıdan birini seçin: iner, sonra RESTLESS SPEECH onu kullanır.",
       "showMore": "{{count}} tane daha göster",
       "showFewer": "Daha az göster",
       "download": "İndir ve kullan",
       "downloadingThenUse": "{{total}} içinden %{{percent}}, sonra geçilir",
       "loading": "Yükleniyor…",
       "deleteAsk": "{{name}} silinsin mi? {{size}} yer açılır.",
-      "deleteAskActive": "{{name}} silinsin mi? Başka bir model seçene kadar Restless Speech transkripsiyon yapamaz.",
+      "deleteAskActive": "{{name}} silinsin mi? Başka bir model seçene kadar RESTLESS SPEECH transkripsiyon yapamaz.",
       "cancel": "İptal",
       "deleteModel": "{{name}} modelini sil",
       "cancelDownload": "{{name}} indirmesini durdur",
@@ -423,14 +423,14 @@
         "marks": "? henüz ölçülmedi. — o dili duymaz."
       },
       "retiredNotice": {
-        "title": "Eski modeller artık Restless Speech ile çalışmıyor",
+        "title": "Eski modeller artık RESTLESS SPEECH ile çalışmıyor",
         "description": "Bilgisayarınızda {{size}} yer kaplıyorlar.",
         "delete": "Modelleri sil",
         "deleteFailed": "Bazı eski modeller silinemedi. Ayrıntılar için günlüğe bakın."
       },
       "rescan": {
         "label": "Yeniden Tara",
-        "tooltip": "Restless Speech dışında modeller klasörüne veya Hugging Face önbelleğine eklenen modelleri yeniden tara"
+        "tooltip": "RESTLESS SPEECH dışında modeller klasörüne veya Hugging Face önbelleğine eklenen modelleri yeniden tara"
       }
     },
     "languages": {
@@ -500,11 +500,11 @@
       },
       "autostart": {
         "label": "Başlangıçta Çalıştır",
-        "description": "Bilgisayara giriş yaptığınızda Restless Speech otomatik olarak başlatılır."
+        "description": "Bilgisayara giriş yaptığınızda RESTLESS SPEECH otomatik olarak başlatılır."
       },
       "showTrayIcon": {
         "label": "Tepsi Simgesini Göster",
-        "description": "Restless Speech simgesini sistem tepsisinde göster."
+        "description": "RESTLESS SPEECH simgesini sistem tepsisinde göster."
       },
       "overlay": {
         "style": {
@@ -741,7 +741,7 @@
       },
       "updateChecks": {
         "label": "Güncellemeleri Kontrol Et",
-        "description": "Restless Speech için yeni sürümleri otomatik olarak kontrol eder",
+        "description": "RESTLESS SPEECH için yeni sürümleri otomatik olarak kontrol eder",
         "lockedDescription": "Sistem yapılandırması tarafından devre dışı bırakıldı (HANDY_DISABLE_UPDATER)"
       },
       "whatsNewPreview": {
@@ -847,7 +847,7 @@
       },
       "keyboardDiagnostic": {
         "title": "Klavye Tanılaması",
-        "description": "Klavye olaylarının Restless Speech'ye ulaşıp ulaşmadığını denetler. Yalnızca olay sayıları kaydedilir — hangi tuşlara bastığınız asla kaydedilmez.",
+        "description": "Klavye olaylarının RESTLESS SPEECH'ye ulaşıp ulaşmadığını denetler. Yalnızca olay sayıları kaydedilir — hangi tuşlara bastığınız asla kaydedilmez.",
         "run": "10 sn'lik tanılamayı çalıştır",
         "running": "Dinleniyor… kısayolunuza birkaç kez basın (ör. Option+Space)",
         "secureInputLabel": "Secure Input",
@@ -861,7 +861,7 @@
         "mouse": "Fare",
         "verdictBlocked": "Secure Input tuş olaylarını engelliyor — normal tuş içeren kısayollar bu sorun çözülene kadar çalışamaz.",
         "verdictSuspicious": "Değiştirici olayları geldi ancak hiç tuş olayı gelmedi — Secure Input devre dışı görünmesine rağmen bir şey tuşları bastırıyor. Lütfen bunu GitHub'da bildirin.",
-        "verdictOk": "Tuş olayları Restless Speech'ye normal şekilde ulaşıyor.",
+        "verdictOk": "Tuş olayları RESTLESS SPEECH'ye normal şekilde ulaşıyor.",
         "verdictNoEvents": "Hiç olay yakalanmadı — test sırasında herhangi bir tuşa bastınız mı?",
         "failed": "Tanılama başarısız: {{error}}"
       }
@@ -870,15 +870,15 @@
       "title": "Hakkında",
       "version": {
         "title": "Sürüm",
-        "description": "Restless Speech'nin mevcut sürümü"
+        "description": "RESTLESS SPEECH'nin mevcut sürümü"
       },
       "whatsNewUpdates": {
         "label": "Yenilikleri Göster",
-        "description": "Restless Speech güncellemelerinden sonra sürüm notlarını göster"
+        "description": "RESTLESS SPEECH güncellemelerinden sonra sürüm notlarını göster"
       },
       "appDataDirectory": {
         "title": "Uygulama Veri Dizini",
-        "description": "Restless Speech'nin verilerini sakladığı konum"
+        "description": "RESTLESS SPEECH'nin verilerini sakladığı konum"
       },
       "sourceCode": {
         "title": "Kaynak Kodu",
@@ -887,7 +887,7 @@
       },
       "supportDevelopment": {
         "title": "Geliştirmeyi Destekle",
-        "description": "Restless Speech'yi geliştirmeye devam etmemize yardımcı olun",
+        "description": "RESTLESS SPEECH'yi geliştirmeye devam etmemize yardımcı olun",
         "button": "Bağış Yap"
       },
       "acknowledgments": {
@@ -895,7 +895,7 @@
         "ggml": {
           "title": "ggml",
           "description": "Cihaz üzerinde makine öğrenmesi çıkarımı için yüksek performanslı tensör kütüphanesi",
-          "details": "Restless Speech'nin yerel konuşmadan metne dönüştürme özelliği transcribe.cpp ve ggml üzerine kuruludur. Georgi Gerganov'a ve katkıda bulunanlara harika çalışmaları için teşekkür ederiz."
+          "details": "RESTLESS SPEECH'nin yerel konuşmadan metne dönüştürme özelliği transcribe.cpp ve ggml üzerine kuruludur. Georgi Gerganov'a ve katkıda bulunanlara harika çalışmaları için teşekkür ederiz."
         }
       }
     }
@@ -916,7 +916,7 @@
     "portableUpdateBrowseButton": "GitHub Releases’i aç"
   },
   "whatsNew": {
-    "title": "Restless Speech v{{version}} yenilikleri"
+    "title": "RESTLESS SPEECH v{{version}} yenilikleri"
   },
   "common": {
     "playbackPosition": "Oynatma konumu",
@@ -943,7 +943,7 @@
     "microphoneSilentTitle": "Mikrofon sessiz",
     "microphoneSilent": "Mikrofonunuz yalnızca sessizlik gönderdi. Sesinin kapalı olmadığını kontrol edin veya Ayarlar'dan başka bir mikrofon seçin.",
     "recordingFailedTitle": "Kayıt başlatılamadı",
-    "modelLoadFailed": "Restless Speech bu modeli yükleyemedi. Yeniden deneyin veya başka bir model seçin.",
+    "modelLoadFailed": "RESTLESS SPEECH bu modeli yükleyemedi. Yeniden deneyin veya başka bir model seçin.",
     "modelLoadFailedTitle": "Model yüklenemedi",
     "noModelSelected": "Ayarlar > Modeller bölümünden bir model indirin veya seçin.",
     "noModelSelectedTitle": "Model seçilmedi",
@@ -951,7 +951,7 @@
     "pasteFailedTitle": "Metin yapıştırılamadı",
     "pasteFailed": "Metin etkin uygulamaya yapıştırılamadı.",
     "pasteBlockedElevatedTitle": "Yapıştırma engellendi",
-    "pasteBlockedElevated": "Etkin uygulama yönetici olarak çalışıyor, bu yüzden Restless Speech içine yapıştıramıyor. Metni Geçmiş'ten kopyalayabilirsiniz.",
+    "pasteBlockedElevated": "Etkin uygulama yönetici olarak çalışıyor, bu yüzden RESTLESS SPEECH içine yapıştıramıyor. Metni Geçmiş'ten kopyalayabilirsiniz.",
     "postProcessFailedTitle": "Son işlem olmadan yapıştırıldı",
     "postProcessFailed": "Son işlem tamamlanmadı, bu yüzden metin olduğu gibi yapıştırıldı.",
     "filePostProcessFailedTitle": "Son işlem olmadan yazıya döküldü",
@@ -968,11 +968,11 @@
   },
   "appLanguage": {
     "title": "Uygulama Dili",
-    "description": "Restless Speech arayüzünün dilini değiştirin"
+    "description": "RESTLESS SPEECH arayüzünün dilini değiştirin"
   },
   "theme": {
     "title": "Uygulama Teması",
-    "description": "Restless Speech'nin sistem temasını izlemesini ya da açık veya koyu kalmasını seçin",
+    "description": "RESTLESS SPEECH'nin sistem temasını izlemesini ya da açık veya koyu kalmasını seçin",
     "options": {
       "system": "Sistem",
       "light": "Açık",

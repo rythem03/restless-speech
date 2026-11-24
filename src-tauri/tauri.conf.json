@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "Restless Speech",
+  "productName": "RESTLESS SPEECH",
   "version": "0.10.2",
   "identifier": "com.restless.speech",
   "build": {
