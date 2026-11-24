@@ -1473,7 +1473,11 @@ pub fn update_checks_forced_disabled() -> bool {
     use std::sync::OnceLock;
     static IS_UPDATER_DISABLED: OnceLock<bool> = OnceLock::new();
     *IS_UPDATER_DISABLED
-        .get_or_init(|| utils::env_flag_enabled("HANDY_DISABLE_UPDATER") || !self_update_possible())
+        // Restless Speech: always off, so the app never "updates" itself back into Handy.
+        .get_or_init(|| {
+            let _ = utils::env_flag_enabled("HANDY_DISABLE_UPDATER") || self_update_possible();
+            true
+        })
 }
 
 /// Effective updater state: the user's stored preference, overridden to `false`

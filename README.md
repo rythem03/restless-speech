@@ -1,3 +1,24 @@
+# Restless Speech
+
+Free, open-source dictation app. Press a shortcut, talk, and your words get typed into whatever app you're using. Everything runs on your own computer: no account, no subscription, no audio uploaded.
+
+**Download (Windows):** go to the [Releases](../../releases/latest) page and run the `-setup.exe` file.
+
+## How to use
+
+1. Install and open Restless Speech.
+2. Pick the recommended speech model when asked.
+3. Choose the keyboard shortcut you want for dictation.
+4. Click into any text box, hold the shortcut and talk. Let go and your words appear.
+
+## Credits
+
+Restless Speech is a rebranded build of [Handy](https://github.com/cjpais/handy) by CJ Pais, used under the MIT License (see `LICENSE`). All credit for the underlying app goes to the Handy project.
+
+---
+
+## Original Handy README
+
 # Handy
 
 [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/WVBeWsNXK4)

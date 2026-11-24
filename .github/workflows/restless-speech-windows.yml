@@ -1,0 +1,41 @@
+name: "Restless Speech - Windows installer"
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    uses: ./.github/workflows/build.yml
+    with:
+      platform: "windows-latest"
+      target: "x86_64-pc-windows-msvc"
+      build-args: ""
+      sign-binaries: false
+      asset-prefix: "restless-speech"
+      upload-artifacts: true
+    secrets: inherit
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: restless-speech-x86_64-pc-windows-msvc
+          path: dist
+      - name: Publish installer as the "latest" release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: Restless Speech (latest build)
+          body: |
+            Free, open-source, offline dictation for Windows.
+            Download the `-setup.exe` file below and run it.
+            Based on Handy by CJ Pais (MIT License).
+          files: dist/**/*
+          make_latest: true
